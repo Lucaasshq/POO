@@ -3,7 +3,10 @@ public class main {
         
         
 
-        Dado d = new Dado();
-        d.rolar();
+        Dado d1 = new Dado();
+        d1.rolar(6);
+
+        Dado d2 = new Dado();
+        d2.rolar(12);
     }
 }

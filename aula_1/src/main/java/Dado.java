@@ -7,8 +7,9 @@ public class Dado {
 
   
 
-    public void rolar() {
-        dado = ThreadLocalRandom.current().nextInt(6);
+    public void rolar(int lados) {
+        // Gerar número aleatorio
+        dado = ThreadLocalRandom.current().nextInt(lados);
         System.out.println("Número: " +dado);
     }
 }
